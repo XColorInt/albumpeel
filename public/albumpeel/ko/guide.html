@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>설치·사용 설명서 — AlbumPeel</title><link rel="stylesheet" href="../style.css"></head><body><nav class="topnav"><div class="wrap"><a class="brand" href="index.html"><img src="../img/logo_icon_small.png" alt="">AlbumPeel</a><a class="nav" href="index.html">홈</a><a class="nav" href="index.html#features">기능</a><a class="nav" href="index.html#guide">설치·사용</a><a class="nav" href="index.html#download">다운로드</a><a class="nav" href="policy.html">구매·라이선스</a><a class="nav" href="blog.html">블로그</a><a class="nav" href="board.html">게시판</a><a class="nav" href="terms.html">이용약관</a><a class="lang nav" href="../en/guide.html">English</a></div></nav><div class="page-title"><div class="wrap"><h1>설치 및 사용 설명서</h1><p>설치, 사용 방법, 배치, 환경설정, 자주 묻는 질문</p></div></div><section><div class="wrap"><h2><small>INSTALL</small>설치</h2><ul>
+<li><b>사용 환경:</b> Windows 10/11 <b>64비트 전용</b>(32비트 미지원). 설치 용량 약 100 MB. 스캔 해상도는 300 dpi 이상 권장. 입력은 JPG · PNG · TIF · BMP.</li>
+<li>설치 파일을 실행하면 <b>관리자 권한</b>을 묻습니다. 필요한 Visual C++ 런타임은 자동으로 설치됩니다(1분쯤).</li>
+<li><b>SmartScreen 경고:</b> 설치 파일에 코드 서명이 아직 없어 "알 수 없는 게시자" 경고가 나올 수 있습니다. 출처를 아는 파일이면 <i>추가 정보 → 실행</i>. 백신이 막으면 허용해 주세요.</li>
+<li>새 버전은 프로그램을 닫고 설치하세요. 이전 버전이 지워지고 설정·라이선스 기록은 유지됩니다.</li>
+<li>설치 폴더 안의 파일은 이름 바꾸기·수정·이동하지 마세요(변경이 감지되면 시작하지 않습니다).</li>
+<li>제거: Windows <i>설정 → 앱</i>. 사진과 스캔은 건드리지 않습니다.</li></ul></div></section>
+<section><div class="wrap"><h2><small>QUICK START</small>사용 방법 (3단계)</h2><ol class="steps">
+<li><b>스캔 열기</b> — <i>이미지 열기</i> 또는 <i>폴더 열기</i>.</li>
+<li><b>사진 찾기</b> — 사진마다 파란 박스가 생깁니다.</li>
+<li><b>저장</b> — 이름과 형식(PNG 권장 · TIF · JPG)을 고르면 <code>이름_01.png</code>, <code>이름_02.png</code> … 로 저장됩니다. 기본은 원본 크기 1:1, 스캔 dpi 유지입니다.</li></ol>
+<img src="../img/ko_07_main_panes.png" alt="주 화면" style="width:100%;border-radius:14px;border:4px solid #fff;box-shadow:0 4px 14px rgba(120,100,70,.2)">
+<p>박스가 어긋나면 모서리를 끌어 고치고, 빠진 사진은 빈 곳을 끌어 새 박스를 그립니다. 선택 후 Delete 로 삭제, 자물쇠 아이콘으로 잠금, Ctrl+Z / Ctrl+Y 로 실행 취소·다시 실행입니다. 고친 박스는 스캔 옆 작은 파일(<code>이름.rects.json</code>)에 기억되고 스캔 파일은 바뀌지 않습니다.</p>
+<p><b>잘 되게 하는 요령:</b> 사진 사이를 조금 띄우고, 뚜껑을 닫아 평평하게, 300 dpi 이상으로 스캔하세요.</p></div></section>
+<section><div class="wrap"><h2><small>BATCH</small>배치 처리</h2><p>리본의 <i>배치 처리</i>에서 파일·폴더를 추가하고(끌어다 놓기 가능), 저장 폴더와 형식을 정한 뒤 <b>시작</b>을 누르면 여러 페이지를 동시에 처리합니다. 언제든 중지할 수 있고, 이미 끝낸 페이지는 건너뜁니다. 저장 폴더에는 페이지마다 상태·사진 수·시간·검토 사유가 적힌 <code>batch_report.csv</code> 가 생기며, "검토 필요" 페이지만 고친 뒤 다시 시작하면 고친 페이지만 다시 저장됩니다.</p></div></section>
+<section><div class="wrap"><h2><small>SETTINGS</small>환경설정</h2><div class="two"><img src="../img/ko_04_settings.png" alt="환경설정 창"><ul>
+<li><b>화면</b> — 언어(한국어·English·中文·日本語·Español), 밝은/어두운 테마, 아이콘, 나만의 테마(테마 파일의 색을 고쳐 사용).</li>
+<li><b>검출</b> — 자동 재시도(기본 켜짐), 같은 크기 틀.</li>
+<li><b>저장</b> — 보정(끔/자동/항상), 얼굴로 방향 맞추기, 크기·해상도(dpi).</li>
+<li><b>배치</b> — 동시 작업 수, 하위 폴더 포함, 폴더마다 따로 저장.</li></ul></div>
+<p class="note">보정과 얼굴 방향 맞추기의 기본값은 모두 <b>끔</b>입니다. 상태바에는 진행바와 현재 단계가 표시됩니다.</p></div></section>
+<section><div class="wrap"><h2><small>FAQ</small>자주 묻는 질문</h2>
+<details><summary>사진이 하나 안 잡혔어요.</summary><p>그 사진 둘레를 빈 곳에서 끌어 박스를 그린 뒤 모서리를 맞추세요. 자주 그렇다면 사진 사이를 더 띄워 스캔해 보세요.</p></details>
+<details><summary>저장한 사진이 스캔보다 작아졌어요.</summary><p>환경설정 → 저장 → 크기가 <i>원본 크기 (1:1)</i> 인지 확인하세요.</p></details>
+<details><summary>배치에서 왜 건너뛰나요?</summary><p>이미 완료된 페이지이거나 편집 화면에서 열려 있는 페이지입니다. 환경설정의 "끝낸 페이지도 다시 처리"를 켜거나 편집 화면에서 닫으세요.</p></details>
+<details><summary>"검토"는 뭔가 잘못된 건가요?</summary><p>아닙니다. 결과가 평소와 달라 보인다는 뜻일 뿐이니 열어서 확인하세요.</p></details>
+<details><summary>스캔 파일을 바꾸나요?</summary><p>절대 바꾸지 않습니다. 읽기만 합니다.</p></details>
+<details><summary>"파일이 변경되었다"며 시작하지 않아요.</summary><p>프로그램 파일이 바뀌었거나 보호가 풀린 경우입니다. 프로그램을 다시 설치해 주세요.</p></details>
+<details><summary>1,000쪽을 모두 썼어요.</summary><p>저장은 막히지만 검출·편집은 계속 쓸 수 있습니다. 새 이용권의 활성화 코드를 입력하면 대체됩니다.</p></details>
+<details><summary>문의</summary><p>XColor International, albumpeel@gmail.com. PC 코드와 복구 코드(라이선스 창)를 함께 보내 주세요.</p></details></div></section>
+<footer><div class="wrap">© 2026 XColor International · AlbumPeel 1.0 · 문의 albumpeel@gmail.com · 일러스트는 AI 로 생성한 이미지입니다(Microsoft Designer). 예시 사진은 설명용 가상 이미지입니다. 오픈소스 구성요소(OpenCV 등)를 사용합니다.</div></footer></body></html>

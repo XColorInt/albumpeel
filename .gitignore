@@ -1,0 +1,9 @@
+# never commit the program, installers or keys here (installers go to GitHub Releases)
+*.exe
+*.enigma64
+*.pem
+*.key
+*.zip
+*.msi
+Thumbs.db
+.DS_Store

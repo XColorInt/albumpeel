@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Install & Guide — AlbumPeel</title><link rel="stylesheet" href="../style.css"></head><body><nav class="topnav"><div class="wrap"><a class="brand" href="index.html"><img src="../img/logo_icon_small.png" alt="">AlbumPeel</a><a class="nav" href="index.html">Home</a><a class="nav" href="index.html#features">Features</a><a class="nav" href="index.html#guide">Install</a><a class="nav" href="index.html#download">Download</a><a class="nav" href="policy.html">Purchase & License</a><a class="nav" href="blog.html">Blog</a><a class="nav" href="board.html">Board</a><a class="nav" href="terms.html">Terms</a><a class="lang nav" href="../ko/guide.html">한국어</a></div></nav><div class="page-title"><div class="wrap"><h1>Install & User Guide</h1><p>Installation, how to use, batch, preferences, FAQ</p></div></div><section><div class="wrap"><h2><small>INSTALL</small>Installation</h2><ul>
+<li><b>Requirements:</b> Windows 10/11, <b>64-bit only</b> (32-bit not supported). About 100 MB installed. Scans of 300 dpi or more recommended. Input: JPG, PNG, TIF, BMP.</li>
+<li>The installer asks for <b>administrator rights</b>. The Visual C++ runtime is installed automatically (about a minute).</li>
+<li><b>SmartScreen warning:</b> the installer is not code-signed yet, so Windows may show an "unknown publisher" warning. If you know where the file came from, choose <i>More info → Run anyway</i>. Allow it if your antivirus blocks it.</li>
+<li>Close the program before installing a new version; the old version is removed and your settings and license record are kept.</li>
+<li>Do not rename, edit or move files in the install folder (the program will not start if it detects changes).</li>
+<li>Uninstall via Windows <i>Settings → Apps</i>. Your photos and scans are not touched.</li></ul></div></section>
+<section><div class="wrap"><h2><small>QUICK START</small>How to use (3 steps)</h2><ol class="steps">
+<li><b>Open your scans</b> — <i>Open image</i> or <i>Open folder</i>.</li>
+<li><b>Find photos</b> — a blue box appears on every photo.</li>
+<li><b>Save</b> — pick a name and format (PNG recommended, TIF, JPG): <code>name_01.png</code>, <code>name_02.png</code> … By default 1:1 original size and the scan dpi.</li></ol>
+<img src="../img/en_07_main_panes.png" alt="Main window" style="width:100%;border-radius:14px;border:4px solid #fff;box-shadow:0 4px 14px rgba(120,100,70,.2)">
+<p>If a box is off, drag its corners; draw a new box in an empty area for a missed photo. Delete removes the selected box, the lock icon locks it, Ctrl+Z / Ctrl+Y undo and redo. Your corrections are remembered in a small file next to the scan (<code>name.rects.json</code>); the scan itself is never changed.</p>
+<p><b>Tips:</b> leave a little gap between photos, close the lid flat and scan at 300 dpi or more.</p></div></section>
+<section><div class="wrap"><h2><small>BATCH</small>Batch</h2><p>In <i>Batch</i> add files or folders (drag and drop works), choose the output folder and format and press <b>Start</b>: several pages are processed at the same time. You can stop at any time and finished pages are skipped. The output folder gets a <code>batch_report.csv</code> with status, photo count, time and review reason per page; fix only the "needs review" pages and start again to save just those again.</p></div></section>
+<section><div class="wrap"><h2><small>SETTINGS</small>Preferences</h2><div class="two"><img src="../img/en_04_settings.png" alt="Preferences window"><ul>
+<li><b>Display</b> — language (한국어, English, 中文, 日本語, Español), light/dark theme, icons, your own theme (edit the colours of a theme file).</li>
+<li><b>Detection</b> — automatic retry (on by default), same-size layout.</li>
+<li><b>Saving</b> — enhancement (off/auto/always), turn upright by faces, size and resolution (dpi).</li>
+<li><b>Batch</b> — parallel pages, include subfolders, separate folder per scan.</li></ul></div>
+<p class="note">Enhancement and turning upright by faces are both <b>off</b> by default. The status bar shows a progress bar and the current step.</p></div></section>
+<section><div class="wrap"><h2><small>FAQ</small>FAQ</h2>
+<details><summary>A photo was not found.</summary><p>Drag around it in an empty area to draw a box, then fit the corners. If it happens often, leave more gap between photos when scanning.</p></details>
+<details><summary>The saved photo is smaller than the scan.</summary><p>Check Preferences → Saving → Size is <i>Original size (1:1)</i>.</p></details>
+<details><summary>Why does batch skip a page?</summary><p>The page is already done or is open in the editor. Turn on "Process finished pages again" or close it in the editor.</p></details>
+<details><summary>Is "review" an error?</summary><p>No. It only means the result looks unusual; open it and check.</p></details>
+<details><summary>Does it change my scans?</summary><p>Never. It only reads them.</p></details>
+<details><summary>It says the file was changed and will not start.</summary><p>The program files were modified or the protection was removed. Reinstall the program.</p></details>
+<details><summary>I used all 1,000 pages.</summary><p>Saving stops but detecting and editing still work. Enter the activation code of a new license to replace it.</p></details>
+<details><summary>Contact</summary><p>XColor International, albumpeel@gmail.com. Please include the PC code and recovery code (License window).</p></details></div></section>
+<footer><div class="wrap">© 2026 XColor International · AlbumPeel 1.0 · Contact albumpeel@gmail.com · Illustrations are AI-generated images (Microsoft Designer). Sample photos are made-up images. Uses open-source components (OpenCV and others).</div></footer></body></html>
