@@ -9,4 +9,5 @@ robocopy "%SRC%\en" "%DST%\en" /MIR /NFL /NDL /NJH /NJS
 robocopy "%SRC%\img" "%DST%\img" /MIR /NFL /NDL /NJH /NJS
 copy /Y "%SRC%\style.css" "%DST%\style.css" >nul
 copy /Y "%SRC%\index.html" "%DST%\index.html" >nul
+copy /Y "%SRC%\blogfeed.js" "%DST%\blogfeed.js" >nul
 echo done. Now: git add -A ^&^& git commit -m "update site" ^&^& git push
