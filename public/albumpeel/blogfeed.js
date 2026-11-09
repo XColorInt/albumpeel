@@ -55,9 +55,15 @@
         return;
       }
       var card = el('div', 'card');
-      if (e.media$thumbnail && e.media$thumbnail.url) {
+      var thumb = e.media$thumbnail && e.media$thumbnail.url;
+      if (thumb) thumb = thumb.replace(/\/s\d+(-c)?\//, '/w480-h300-c/');
+      if (!thumb && e.content && e.content.$t) {                      // no thumbnail from Blogger: first picture of the post
+        var m = /<img[^>]+src=["']([^"']+)["']/i.exec(e.content.$t);
+        if (m) thumb = m[1];
+      }
+      if (thumb) {
         var img = el('img', 'thumb');
-        img.src = e.media$thumbnail.url.replace(/\/s\d+(-c)?\//, '/w480-h300-c/');
+        img.src = thumb;
         img.alt = '';
         img.loading = 'lazy';
         card.appendChild(img);
