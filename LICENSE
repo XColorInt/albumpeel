@@ -1,0 +1,42 @@
+Copyright (c) 2026 XColor International. All rights reserved.
+Copyright (c) 2026 XColor International. 모든 권리 보유.
+
+This is NOT open source software. / 이 저장소는 오픈소스가 아닙니다.
+
+1. This repository contains the website of AlbumPeel (product information, pages and pictures)
+   and is published only so that the website can be shown and the installer can be downloaded.
+   You may view the website and download the installer for your own use under item 2.
+   You may NOT copy, modify, republish or redistribute the website files, texts or pictures,
+   or use them in another product or website, without written permission of XColor International.
+
+   이 저장소에는 AlbumPeel 의 홈페이지(제품 안내, 페이지, 그림)가 들어 있으며, 홈페이지를 보여 주고
+   설치 파일을 내려받게 하려는 목적으로만 공개합니다. 서면 허락 없이 홈페이지 파일, 문구, 그림을
+   복사, 수정, 다시 게시, 재배포하거나 다른 제품·사이트에 사용할 수 없습니다.
+
+2. The AlbumPeel program (the installer AlbumPeel_Setup_*.exe attached to the Releases) is
+   proprietary software. Its terms of use, the trial and the paid licence are in the
+   "Terms of Use / License Agreement" page of the website (albumpeel/ko/terms.html and albumpeel/en/terms.html).
+   Installing or using the program means that you accept those terms.
+
+   AlbumPeel 프로그램(Releases 에 첨부된 설치 파일 AlbumPeel_Setup_*.exe)은 상용 소프트웨어입니다.
+   사용 조건, 체험판, 정품 이용권은 홈페이지의 "이용약관 · 사용권 계약" 페이지
+   (albumpeel/ko/terms.html, albumpeel/en/terms.html)를 따르며, 설치하거나 사용하면 그 조건에 동의한 것으로 봅니다.
+
+3. Third-party software: the program uses open source components (OpenCV and others) under their own
+   licences. They are listed in THIRD_PARTY_NOTICES.txt in the installation folder and in the About window
+   of the program.
+
+   외부 소프트웨어: 프로그램은 OpenCV 등 오픈소스 구성요소를 각자의 라이선스에 따라 사용합니다.
+   설치 폴더의 THIRD_PARTY_NOTICES.txt 와 프로그램의 정보 창에서 볼 수 있습니다.
+
+4. The illustrations are AI-generated images (Microsoft Designer). Sample photos on the website are made-up pictures.
+
+   일러스트는 AI 로 생성한 이미지(Microsoft Designer)이고, 홈페이지의 예시 사진은 설명용 가상 이미지입니다.
+
+5. No warranty. The website and the files are provided "as is".
+
+   보증 없음. 홈페이지와 파일은 "있는 그대로" 제공됩니다.
+
+Contact / 문의: albumpeel@gmail.com
+
+[DRAFT - to be fixed after legal review / 초안 - 법률 검토 후 확정]
