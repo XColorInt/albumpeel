@@ -2,6 +2,7 @@
   // Cloudflare (Workers static assets): publishes only the "public" folder; /albumpeel/ is a folder inside it.
   "name": "albumpeel",
   "compatibility_date": "2026-11-01",
+  "workers_dev": true,
   "assets": {
     "directory": "./public",
     "not_found_handling": "404-page"
