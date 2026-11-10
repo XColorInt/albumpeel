@@ -174,3 +174,14 @@ ul.feedlist{list-style:none;padding:0;margin:0}
 ul.feedlist li{padding:12px 4px;border-bottom:1px solid var(--line)}
 ul.feedlist .fdate{display:inline-block;min-width:110px;color:var(--sub);font-size:.88rem}
 ul.feedlist a{color:var(--ink);text-decoration:none;font-weight:600}ul.feedlist a:hover{color:var(--violet)}
+
+/* single post (post.html) */
+.postbody{max-width:820px;margin:0 auto}
+.postbody h1.ptitle{font-size:1.9rem;margin:.2em 0 .1em}
+.postbody .pbody{font-size:1.04rem;line-height:1.75;word-break:break-word}
+.postbody .pbody img{max-width:100%;height:auto;border-radius:12px}
+.postbody .pbody a{color:var(--violet)}
+.postbody .pbody iframe{max-width:100%}
+.postbody .pbody .separator{margin:1em 0}
+.postbody .pnav{margin-top:2em;padding-top:1em;border-top:1px solid var(--line)}
+.postbody .pnav a{color:var(--violet);font-weight:600;text-decoration:none}
