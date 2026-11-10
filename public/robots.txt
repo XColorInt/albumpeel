@@ -1,5 +1,2 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://xcolorrip.com/sitemap.xml
-Sitemap: https://xcolorrip.com/albumpeel/sitemap.xml
+Disallow: /

@@ -1,1 +1,3 @@
-/albumpeel /albumpeel/ 301
+# old sub-directory address -> new root
+/albumpeel /ko/ 302
+/albumpeel/* /:splat 301
