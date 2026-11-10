@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.xcolorinternational.com/sitemap.xml
+Sitemap: https://xcolorrip.com/sitemap.xml
+Sitemap: https://xcolorrip.com/albumpeel/sitemap.xml
