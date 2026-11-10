@@ -59,6 +59,8 @@
         var li = el('li');
         li.appendChild(el('span', 'fdate', date));
         var a = el('a', null, title); a.href = href;
+        var cur = (/[?&]id=(\d+)/.exec(location.search) || [])[1];      // post page: highlight the post being read
+        if (cur && href.indexOf('id=' + cur) > -1 && document.getElementById('post')) li.className = 'cur';
         li.appendChild(a);
         wrap.appendChild(li);
         return;
@@ -168,6 +170,15 @@
       var o = el('a', null, t.orig); o.href = link(e); o.target = '_blank'; o.rel = 'noopener'; o.style.marginLeft = '18px';
       nav.appendChild(o);
       box.appendChild(nav);
+      // list of the same kind (news / blog / qna) next to the post, so the reader stays in the board
+      var side = document.getElementById('sidelist');
+      if (side) {
+        side.className = 'feed';
+        side.setAttribute('data-label', cats.indexOf('news') >= 0 ? 'news' : cats.indexOf('qna') >= 0 ? 'qa' : 'blog');
+        side.setAttribute('data-max', '15');
+        side.setAttribute('data-style', 'list');
+        load(side);
+      }
     };
     s.onerror = fail;
     s.src = BLOG + '/feeds/posts/default/' + id + '?alt=json-in-script&callback=' + cb;
