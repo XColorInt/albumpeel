@@ -198,3 +198,9 @@ ul.feedlist a{color:var(--ink);text-decoration:none;font-weight:600}ul.feedlist 
 .videobox{position:relative;width:100%;max-width:880px;margin:18px auto 8px;aspect-ratio:16/9;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);background:#000}
 .videobox iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 #video .note{text-align:center}
+
+/* PayPal button box (policy page) */
+.paybox{max-width:560px;margin:26px auto 4px;padding:22px 24px;border:1px solid var(--line);border-radius:var(--r);background:#fff;box-shadow:var(--shadow)}
+.paybox h3{margin:0 0 .3em}
+.paybox p{margin:0 0 14px;color:var(--sub)}
+.paybox p.note{margin:14px 0 0;font-size:.92rem}
