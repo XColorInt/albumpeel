@@ -25,5 +25,5 @@ albumpeel-site/
 ## Notes
 - All page links are relative, so the folder works under any path.
 - A single file on Cloudflare must be 25 MiB or smaller: do NOT put the installer here. Upload it to GitHub Releases and link it.
-- Pre-launch: `_headers` sends `X-Robots-Tag: noindex, nofollow` and `robots.txt` disallows everything. Remove both when the site is made public, and then add the Sitemap line to `robots.txt`.
+- Public since 2026-11-20: `_headers` no longer sends noindex, `robots.txt` allows everything and lists the sitemap (canonical URLs without `.html`). To hide the site again, restore `X-Robots-Tag: noindex, nofollow` in `_headers` and `Disallow: /` in `robots.txt`.
 - Placeholders still in the pages: PayPal payment link, legal review of the terms.
